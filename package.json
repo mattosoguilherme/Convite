@@ -1,0 +1,12 @@
+{
+  "name": "convite",
+  "version": "1.0.0",
+  "description": "Convite para algo",
+  "license": "ISC",
+  "author": "Guilherme Mattoso",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
