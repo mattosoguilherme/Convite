@@ -5,7 +5,7 @@ const path = require('path');
 const PORTA = 3000;
 
 const servidor = http.createServer((req, res) => {
-  fs.readFile(path.join(__dirname, 'convite.html'), (erro, conteudo) => {
+  fs.readFile(path.join(__dirname, 'index.html'), (erro, conteudo) => {
     if (erro) {
       res.writeHead(500);
       return res.end('Erro ao carregar a página');
